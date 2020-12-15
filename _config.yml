@@ -1,3 +1,16 @@
+title: Kris' Notes
+author:
+  name: Krzysztof Banasik
+  email: krzysztof.banasik@protonmail.com
+
+description: > # this means to ignore newlines until "show_excerpts:"
+ A bunch of write-ups, guides and thoughts on software engineering. Enjoy your stay!
+
+show_excerpts: false
+
+github: krisbanas
+
+
 theme: minima
 
 plugins:
