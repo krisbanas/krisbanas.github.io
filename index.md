@@ -7,6 +7,7 @@
 #
 layout: home
 ---
+# WORK IN PROGRESS
 # Welcome to *Chaotic Notes* 🎉
 
 A place where my random write-ups, guides and thoughts on software enginnering are published. 
