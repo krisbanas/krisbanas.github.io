@@ -1,14 +1,12 @@
 title: Chaotic Notes
-author:
-  name: Krzysztof Banasik
-  email: krzysztof.banasik@protonmail.com
+author.name: Krzysztof Banasik
+
 description: >
  A bunch of write-ups, guides and thoughts on software engineering. Enjoy your stay!
 
 show_excerpts: false
 
-social_links:
-  github: krisbanas
+social_links.github: krisbanas
 
 theme: minima
 
