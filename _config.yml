@@ -1,15 +1,14 @@
-title: Kris' Notes
+title: Chaotic Notes
 author:
   name: Krzysztof Banasik
   email: krzysztof.banasik@protonmail.com
-
-description: > # this means to ignore newlines until "show_excerpts:"
+description: >
  A bunch of write-ups, guides and thoughts on software engineering. Enjoy your stay!
 
 show_excerpts: false
 
-github: krisbanas
-
+social_links:
+  github: krisbanas
 
 theme: minima
 
