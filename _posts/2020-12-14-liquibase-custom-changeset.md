@@ -4,17 +4,15 @@ title: "Using Spring Boot configuration in Liquibase custom change"
 categories: java
 ---
 
-# Introduction and Problem Identification
+## Introduction
 
-> Disclaimer: I assume you are **not** [using liquibase plugin for your build tool](https://docs.liquibase.com/tools-integrations/springboot/using-springboot-with-maven.html) (like `liquibase-maven-plugin`). The solution assumes the `liquibase-core` dependency is used.
+> Disclaimer: I assume you are **not** using [liquibase plugin for your build tool](https://docs.liquibase.com/tools-integrations/springboot/using-springboot-with-maven.html) (like `liquibase-maven-plugin`). The solution assumes the `liquibase-core` dependency is used.
 
 Liquibase offers a wide variety of pre-defined changesets but sometimes the desired logic of a changeset cannot be expressed within their limitations. In such scenarios, a custom change can be implemented as Java code. 
 
 Oftentimes, when developing Spring Boot applications, we would like to allow for external configuration of the logic. For example, instead of hardcoding specific values, refer to the `application.yaml`. This is where a common issue occurs:
 
----
 > The code executed during Liquibase migrations is **not** managed by Spring's `ApplicationContext`.
----
 
 The common questions are: 
 1. *How can I pass the parameters from application config to the Java code executed as a Liquibase changeset?* 
@@ -22,30 +20,28 @@ The common questions are:
 
 Let us look at the solution and follow an example.
 
-# The Solution
+## The Solution
 
-All properties under `spring.liquibase` in the application config are made available for Liquibase. A handy list of available properties can be found in the [Spring Boot docs](https://docs.spring.io/spring-boot/docs/current/reference/html/appendix-application-properties.html#common-application-properties-data-migration).
+All properties under `spring.liquibase` in the application config are passed to Liquibase. A handy list of available properties can be found in the [Spring Boot docs](https://docs.spring.io/spring-boot/docs/current/reference/html/appendix-application-properties.html#common-application-properties-data-migration).
 
 The interesting part is the key [spring.liquibase.parameters.*](https://docs.spring.io/spring-boot/docs/current/reference/html/appendix-application-properties.html#spring.liquibase.parameters). It allows for creating a key:value map of parameters injectable to changesets. 
 
 Example:
 
-```
+```yaml
 # in application.yaml
-...
 spring:
   liquibase:
     parameters:
       param1: foo
       param2: bar
-...
 ```
 
 The values of `param1` and `param2` can be environment-specific and be injected to the `application.yaml` during deployment for example by the CD pipeline. The parameters can also be passed from the command line like any other Spring Boot property.
 
 On the liquibase changeset's side we can now refer to the parameter in a changeset.
 
-```
+```xml
 <changeSet id="42" author="honk">
   <customChange 
     class="name.of.package.CustomChangeExample" 
@@ -55,9 +51,9 @@ On the liquibase changeset's side we can now refer to the parameter in a changes
 
 The value of token `${param1}` will be looked up and changed to `foo`. Now, in order to "capture" it on the Java class' side, we need a field with getter and setter. Keep in mind that the Java class has to extend `CustomTaskChange`.
 
-> Not creating the getter and setter for `configurableValue` will not allow for parameter injection!
+> Not creating the getter and setter for `configurableValue` will not allow for parameter injection and result in `null`.
 
-```
+```java
 package name.of.package;
 
 public class CustomChangeExample implements CustomTaskChange {
@@ -77,120 +73,135 @@ public class CustomChangeExample implements CustomTaskChange {
       // configurableValue is available here
   } 
 
-  // All the methods from CustomTaskChange interface below
-  .
-  .
-  .
+  // Other from CustomTaskChange interface below
+  ...
   
 }
 ```
 
-There are two caveats to this approach:
+There is a caveat to this approach. If the parameter is not defined in the config, Liquibase will fail to substitute the `${param1}`. In such a scenario there are two approaches.
 
+#### Approach 1: Handling in code
 
+If there are specific conditions, upon which the property may remain undefined and changeset should successfully pass anyway, the check can be performed in the code. 
 
+The method `execute(Database database)` can begin by running a set of queries on the database to check if it's okay to proceed with no parameter defined.
 
----
-## Some great heading (h2)
+#### Approach 2: Precondition check
 
-Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu.
+If failing the migration is the desired behaviour, a [precondition](https://docs.liquibase.com/concepts/preconditions.html) check can be used to ensure the existence of the parameter. Example:
 
-Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
-
-## Another great heading (h2)
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.
-
-### Some great subheading (h3)
-
-Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum.
-
-Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc.
-
-### Some great subheading (h3)
-
-Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
-
-> This quote will *change* your life. It will reveal the <i>secrets</i> of the universe, and all the wonders of humanity. Don't <em>misuse</em> it.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt.
-
-### Some great subheading (h3)
-
-Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum.
-
-```html
-<html>
-  <head>
-  </head>
-  <body>
-    <p>Hello, World!</p>
-  </body>
-</html>
+```
+<preConditions>
+  <changeLogPropertyDefined property="param1"/>  
+</preConditions>  
 ```
 
+By default, if no property is found, the changeset will fail. The behaviour can be fine-tuned to skip the changeset once or forever.
 
-In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.
+## Example
 
-#### You might want a sub-subheading (h4)
+Consider a table for a `Car` entity. The entity consists of the following:
+* `ID: INT NOT NULL`
+* `MAKE: VARCHAR(255) NOT NULL`
+* `MODEL_NAME: VARCHAR(255) NOT NULL`
+* `INSURER: VARCHAR(255)`
 
-In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.
+We would like to create a `NOT NULL` constraint on the `INSURER` column and for all rows already present insert a value defined in the config with `current-insurer` key. The behaviour is:
 
-In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.
+1. If the table is **empty** (for example, a new database is created), mark changeset as done and do not require the `current-insurer` to be configured.
+2. If the table is **filled**, require a `current-insurer` parameter. If the parameter is not provided, fail the migration.
 
-#### But it's probably overkill (h4)
+Let us look into the implementation. The code example can be found [on GitHub](https://github.com/krisbanas/liquibase-example).
 
-In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.
+### 1. Create the Java class with the logic
 
-##### Could be a smaller sub-heading, `pacman` (h5)
+The class has to implement the `CustomTaskChange` interface and have a `String` field for each parameter - in this case just one field `currentInsurer`.
 
-In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.
+```java
+package com.github.krisbanas.migration;
 
-###### Small yet significant sub-heading  (h6)
+// A class implementing CustomTaskChange interface
+public class CustomMigrationExample implements CustomTaskChange {
 
-In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.
+  // The field that will capture the value of parameter
+  private String currentInsurer;
 
-### Oh hai, an unordered list!!
+  /*
+   * Getters and setters for the currentInsurer
+   */
+  
+  ...
+}
+```
 
-In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.
+All the methods of `CustomTaskChange` interface have to be implemented. Let us look at the important method `void execute(Database database)`. This is just a snippet, the entire implementation can be found on GitHub.
 
-- First item, yo
-- Second item, dawg
-- Third item, what what?!
-- Fourth item, fo sheezy my neezy
+```java
+@Override
+public void execute(Database database) {
+    JdbcConnection jdbcConnection = (JdbcConnection) database.getConnection();
+    try {
+        // If the table is empty, just skip the changeset
+        if (noRowsInCarTableExist(jdbcConnection)) return;
 
-### Oh hai, an ordered list!!
+        // Otherwise, perform the migration
+        executeInsurerMigration(jdbcConnection);
+    } catch (SQLException | LiquibaseException e) {
+        // Arguably, the exceptions here are not recoverable as they are caused by issues with Database connectivity, permissions etc. Throwing a RuntimeException means that the changeset execution failed.
+        throw new RuntimeException(e.getMessage());
+    }
+}
 
-In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.
+private boolean noRowsInCarTableExist(JdbcConnection jdbcConnection) throws SQLException, DatabaseException {
+    try (PreparedStatement rowLookupStatement = jdbcConnection.prepareStatement(QUERY_IF_ROWS_EXIST_IN_CARS)) {
+        ResultSet rs = rowLookupStatement.executeQuery();
+        return !rs.next();
+    }
+}
+```
 
-1. First item, yo
-2. Second item, dawg
-3. Third item, what what?!
-4. Fourth item, fo sheezy my neezy
+> Always use `PreparedStatement` when invoking a plaintext SQL query with parameters. Parsing the query with tools like `String.format()` may lead to SQL injection. In our case, if someone is able to tamper with the config, they could put a malicious SQL command as a value. This command could then be inserted by the format method and executed on the database.
+
+The SQL expressions used in the example look as follows. Depending on what database is used, the query can be optimized but this one should work on any DB. You can also use the `EXISTS` keyword.
+
+```java
+private static final String QUERY_IF_ROWS_EXIST_IN_CARS = "SELECT TOP(1) FROM CARS";
+
+private static final String UPDATE_INSURER_ON_NULL_ENTRIES_TEMPLATE = "UPDATE CARS SET INSURER = ? WHERE INSURER IS NULL";
+
+```
+
+### 2. Add the parameter to changeset definition
+
+```xml
+<changeSet id="create-table" author="krisbanas">
+  <customChange
+    class="com.github.krisbanas.migration.CustomMigrationExample"
+    currentInsurer="${current-insurer}">
+  </customChange>
+</changeSet>
+```
+
+The `class` should point to a fully qualified name of the Class containing implementing `CustomChangeExample`. The second entry means that the value of `current-insurer` in the configuration will be injected to `currentInsurer` field in the class.
+
+> In the case of no `current-insurer`, the injected value will actually be `"${current-insurer}"`. It's good to check for this eventuality. In simpler use cases, a precondition can be used to ensure the existence of the value.
+
+### 3. Add the parameter to Spring configuration
+
+In the `application.yaml` simply put the correct value:
+
+```yaml
+spring:
+  liquibase:
+    parameters:
+      current-insurer: Generic Insurance Group Inc.
+```
+
+Now migration should work as intended.
+
+## Conclusion
+
+Custom changesets give the most granular control over performed migration's logic. While the best approach is to use the built-in Liquibase changeset types, the custom Java changeset can always be used as a backup plan and is the only way to use Spring properties during the migration.
 
 
-
-## Headings are cool! (h2)
-
-Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
-
-Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
-
-Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc.
-
-### Tables
-
-Title 1               | Title 2               | Title 3               | Title 4
---------------------- | --------------------- | --------------------- | ---------------------
-lorem                 | lorem ipsum           | lorem ipsum dolor     | lorem ipsum dolor sit
-lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
-lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
-lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
-
-
-Title 1 | Title 2 | Title 3 | Title 4
---- | --- | --- | ---
-lorem | lorem ipsum | lorem ipsum dolor | lorem ipsum dolor sit
-lorem ipsum dolor sit amet | lorem ipsum dolor sit amet consectetur | lorem ipsum dolor sit amet | lorem ipsum dolor sit
-lorem ipsum dolor | lorem ipsum | lorem | lorem ipsum
-lorem ipsum dolor | lorem ipsum dolor sit | lorem ipsum dolor sit amet | lorem ipsum dolor sit amet consectetur
