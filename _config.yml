@@ -5,7 +5,7 @@ author:
 description: > # this means to ignore newlines until "show_excerpts:"
  A topic got you interested and you want to discuss it further? 
  Or maybe I simply got something utterly wrong? 
- Feel free to reach out via e-mail! 
+ Feel free to reach out via e-mail!
 show_excerpts: false # set to true to show excerpts on the homepage
 
 # Minima date format
@@ -15,7 +15,6 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: kris_banas
     github: krisbanas
 
 # If you want to link only specific pages in your header, uncomment
