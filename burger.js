@@ -1,4 +1,4 @@
-// Forked for safety
+// Forked for security
 (function(){
     var template = document.createElement('template');
     var burgerSVGTemplate =  document.createElement('template');
