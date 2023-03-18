@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Mangroves"
-categories: misc
+categories: plants
 ---
 
 The Earth's ecosystem offers a plethora of potential niches and some of the most extraordinary adaptations observed in

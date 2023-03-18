@@ -37,6 +37,3 @@ The matching T Cell recognizes the pathogen using its receptor and becomes activ
 Having been activated, the Helper T Cell starts multiplying in the lymph node and split into two halves. One half heads towards the infection place. Its primary goal is to support the cells of the innate system. It grants permission to intensify the efforts even despite collateral damage done to the body. This is achieved by releasing molecules that stimulate the bactericidal behaviour of the innate system white cells. The other half continues to activate further cells of the adaptive system - the details of this process are skipped. The aid coming from the Helper T Cells may prove sufficient to overcome the disease. Healing however will take longer.
 
 All cells have an internal clock that limits their lifespan. After several days almost all of the Helper T Cells die via process of **apoptosis**. This process means that a cell self-desintegrates and its innards can be recycled. Some of the T Cells, however, survive and remain in the body. Those cells constitute the acquired immunity against the disease or memory thereof. The existence of those memory cells greatly expedites the immune system reaction against the next infections caused by the same pathogens.
-
-
-
