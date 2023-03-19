@@ -87,13 +87,14 @@ store it in the form of a malic acid. Keep in mind that storage and transformati
 plans simply gather CO2 during the day and perform photosynthesis on the spot.
 
 To further protect the succulent part of the stem from sun exposure and water loss, cacti often take the shape of a star-like cross-section (see below). This
-way, the less vital parts protect the stem's core from heating. Below is a cross-section of a cactus' stem.
+way, the less vital parts protect the stem's core from heating. Below is a cross-section of a cactus' stem. Throughout the year, cacti get thicker and thinner,
+basing on their water content.
 
 ![succulent-5.png](../images/succulent-5.png)
 
 <span class="caption">A cross-section of a cactus. Left - freshly cut, full of water. Right - dried out.</span>
 
-### Leaf succulents
+## Leaf succulents
 
 The aforementioned Kurt Dinter also describes _Augea capensis_ - a so-called leaf succulent. This type of succulents evolved succulency in their leaves. Common
 leaf succulents are Aloes and Agaves.
@@ -104,105 +105,76 @@ The water will however not help surviving on the south-african desert due to its
 developed a phenomenal way of storing the water. They use hygroscopic properties of the salt
 to bind water inside the leaf and minimize the losses due to vaporizing.
 
+![succulent-4.jpg](../images/succulent-4.jpg)
 
+<span class="caption">_Augea capensis_ - A leaf succulent. As seen on the picture, it grows in the harshest of climates.</span>
 
----
+## Spines and thorns
 
-Ale Augeja nie da pitnej wody - bo za słona jest... Więc chuj a nie survival.
+To deter the herbivores, succulents developed several techniques. One of them are spines - the hallmark of the cacti family. Spines are a good example of
+convergent evolution since they evolved from different parts of plants for different, isolated, plant groups.
 
-Examples: cacti (Cactaceae) or spurges (
-Euphorbiacaea)
+I mentioned that cacti do not need leaves, since their stem and branches are responsible for photosynthesis. This allowed them to repurpose the leaves. What
+they grow instead are spikes, which are strongly altered vestigial leaves. The spines are growing on so-called areoles - points on the surface of the branches,
+which evolved from branch buds. Some cacti grow glochids - hair-like, small spines. While not as strong as spines, they are extremely irritating and difficult
+to get rid of once caught.
 
-Inne to drzewa z grubymi pniami i gałęziami (pachycauly z greckiego. pachys = thick, caulos = stem).
-U nich woda w pniu i gałęzi a fotosynteza w liściach niesukulentnych.
-Trzymana woda pozwala im kwitnąć podczas suchego sezonu.
+![succulent-6.jpg](../images/succulent-6.png)
 
-Np baobab (monkey bread tres)
+<span class="caption">Spines on a Trichocereus (left) vs glochids on Opuntia (right). The flat shape of Opuntia segments might resemble leaves but those are
+also branches. They evolved to limit the sun exposure by limiting the projection surface.</span>
+
+A convergent solution are thorns. Those can be found on the succulents from the Euphorbiaea family.
+While they serve the same role as cactus' spines, the thorns grow directly on the branch.
+Interestingly, some species grow both thorns and leaves - something not seen in the cacti family.
+
+![succulent-7.jpg](../images/succulent-7.jpg)
+
+<span class="caption">Thorns on the branches of a succulent from Didireaceae family</span>
+
+--- 
+
+Euphorbia: Niektóre mają Milki Sap "wolf's milk". biały, caustic, trujący. Tylko kilka zwierząt je dzięki temu wpierdala
 
 Orchidee typowo trzymają wodę w pniach ale mogą też być sukulnentne w liściach
-
 Orchid seeds - poczytaj.
 
-----
+## Seeds
+
+Uncarina. Uncarina ma pojebane owoce!! Masz fote odpowiedniego ustępu.
 
 ## Growth Patterns
 
-## Kolce
-
-- areole - zmodyfikowane pędy https://en.wikipedia.org/wiki/Areole
-- nie mają liści -> modyfikacja ich
-- opuncja ma duze gałęzie
-
-## Rozmnażanie
-
-## Sonstiges
-
-### Afryka
+Trzymana woda pozwala im kwitnąć podczas suchego sezonu.
 
 w afryce jest dużo Spurges (Euphorbiaceae), mają gigantyczny rozrzut:
 
 - np green, succulent stems, vestigial leaves
 - ale też thornless stem succulents z niesukulentnymi liśćmi a zamiast tego rhizomes albo korzenie/pnie, które są
-
-Euphorbia: Niektóre mają Milki Sap "wolf's milk". biały, caustic, trujący. Tylko kilka zwierząt je dzięki temu wpierdala
+  Limit annual growth do minimum. Kilka kwiatków i malutkich liści. Tylko na tyle, żęby dojrzał owoc.
 
 Obczaj:
 
 - euphorbia boranensis (ethipia i kenia native)
 - euphorbia candelabrum (east africa)
   E. echinus też. (marocco, atlas mountains)
-
----
-
-Jeste też sporo Asphodelaceae (aloesy). Np Aloe pillansii ma 10m, wygląda jak drzewo.połudine/płd-wsch afryka (
-madagaskar tez). (asphodel family lol).
-Agave v Aloe: Agave mają szorstkie, włókniste fibres. Aloes soft/no fibres, bez thorna na końcu, mają czasem ząbki na
-boku.
-
----
-
-Limit annual growth do minimum. Kilka kwiatków i malutkich liści. Tylko na tyle, żęby dojrzał owoc.
-
----
-
-### Madagaskar:
-
-890 species. Południe tropikalne, północ pustynna
-Didirea - kolczaste. Wyglądają jak kaktusy. Tak jak kaktusy mają spines (zmodyfikowane liście) są one skompresowane do
-grupek zwanych "areole" - odpowiedników pędów (spur shoot). Ale inaczej niż kaktuchy, Didirea wypuszcza małe liście z
-areoli.
-Czasami się na nie mówi "Madagascan cacti" ale NIE są kaktusami. Jedyny prawdziwy kaktus (epifit, są też introdukowane)
-to Rhipsalis baccifera!!
-
-Didireaceae są endemitami, tak samo Uncarina. Uncarina ma pojebane owoce!! Masz fote odpowiedniego ustępu.
-
-Pachypodium - Grubostope?
-Drzewiaste Aloesy + euphorbie (jak zwykle)
-Adansonia grandidieri - fajne grubiaste
-
-### Drzewne sukulenty
-
----
-
-Baobab = Adansonia digitata
-W przypadku kaktusów chlorofil jest w pniu. Pachyaule natomiast mają liście, które zrzucają podczas suchyh.
-
-Caudex - zbiorniczki wody w łodudze/pinu - to są te z grubmi pniami w chuj c ojak kamien wygladaja. czyli ywe kamienie.
-One wypuszczą pędy co roku, które wyglądają jak liany.
-Kaktusy się zgrubiają i zwężają, gdy wody dużo i ało.
-
----
+- Jeste też sporo Asphodelaceae (aloesy). Np Aloe pillansii ma 10m, wygląda jak drzewo.połudine/płd-wsch afryka (
+  madagaskar tez). (asphodel family lol).
+  Agave v Aloe: Agave mają szorstkie, włókniste fibres. Aloes soft/no fibres, bez thorna na końcu, mają czasem ząbki na
+  boku.
 
 Wzrost - Agave americana: flower spike rośnie aż 1cm na godzine.
 Cereus jamacaru - segmenty ok 50cm, rosną podczas growing season.
 Aloe pillansi - ponad 10m i koło 380 lat żyje.
 U samych kaktusów: Pachycereus pringlei ponad 10m, Blossfeldia lilipuntana 2cm max..
-
+drzewiaste aloesy
 Pomiar wzrostu:
 nie ma completely woody stem u kaktusów i euphorbia -> no growth rings. Dlatego badamy constrictions między stem
 segmentami - u cereus jamacaru jes to kurwa trywialne.
 
-pachypodium lamerei - przyklad stem succ + niesucc liscie
+### Madagaskar:
+
+### Drzewne sukulenty
 
 [1] https://www.nationalgeographic.com/environment/article/madagascar-baobab-trees-deforestation-climate-change#:~:text=Of%20baobab%20trees%2C%20the%20Adansonia,species%20could%20be%20lost%20forever.
 
