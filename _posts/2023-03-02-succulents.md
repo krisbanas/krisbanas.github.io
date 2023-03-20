@@ -28,7 +28,7 @@ form, the succulents adapted to store water in different ways.
 Stem succulents preserve water in their trunks and branches. One solution is increasing the thickness of the trunk and branches.
 It leads to the plant looking like a malformed tree - like in the case of a baobab (a.k.a monkey bread tree)
 
-![succulent-1.jpg](../images/succulent-1.jpg)
+![succulent-1.jpg](/images/succulent-1.jpg)
 
 <span class="caption">Baobab (_Adansonia digitata_) trees in Madagascar - stem succulents. In the foreground, a wagon pulled by two specimen of _zebu_ - cattle
 with characteristic fat hump on their backs. For whatever reason, Google Maps contains [official Street View coverage](https://goo.gl/maps/GG6BoAzjwFfog7d98)
@@ -47,11 +47,11 @@ wide branches, others form a more extreme rock-like trunk with liana-like branch
 plants. It's also worth noting that the word _pachy_ is often found in the taxonomy of the succulents due to their
 looks.
 
-![succulent-2.png](../images/succulent-2.png)
+![succulent-2.png](/images/succulent-2.png)
 
 <span class="caption">_Pachypodium horombens_ plant - endemic to Madagascar.</span>
 
-![succulent-3.jpg](../images/succulent-3.jpg)
+![succulent-3.jpg](/images/succulent-3.jpg)
 
 <span class="caption">_Cyphostemma pachypus_ plant. The stem is rock-solid (I checked).</span>
 
@@ -89,7 +89,7 @@ To further protect the succulent part of the stem from sun exposure and water lo
 way, the less vital parts protect the stem's core from heating. Below is a cross-section of a cactus' stem. Throughout the year, cacti get thicker and thinner,
 basing on their water content.
 
-![succulent-5.png](../images/succulent-5.png)
+![succulent-5.png](/images/succulent-5.png)
 
 <span class="caption">A cross-section of a cactus. Left - freshly cut, full of water. Right - dried out.</span>
 
@@ -104,7 +104,7 @@ The water will however not help surviving on the south-african desert due to its
 developed a phenomenal way of storing the water. They use hygroscopic properties of the salt
 to bind water inside the leaf and minimize the losses due to vaporizing.
 
-![succulent-4.jpg](../images/succulent-4.jpg)
+![succulent-4.jpg](/images/succulent-4.jpg)
 
 <span class="caption">_Augea capensis_ - A leaf succulent. As seen on the picture, it grows in the harshest of climates.</span>
 
@@ -118,7 +118,7 @@ they grow instead are spikes, which are strongly altered vestigial leaves. The s
 which evolved from branch buds. Some cacti grow glochids - hair-like, small spines. While not as strong as spines, they are extremely irritating and difficult
 to get rid of once caught.
 
-![succulent-6.jpg](../images/succulent-6.png)
+![succulent-6.jpg](/images/succulent-6.png)
 
 <span class="caption">Spines on a Trichocereus (left) vs glochids on Opuntia (right). The flat shape of Opuntia segments might resemble leaves but those are
 also branches. They evolved to limit the sun exposure by limiting the projection surface.</span>
@@ -127,7 +127,7 @@ A convergent solution are thorns. Those can be found on the succulents from the 
 While they serve the same role as cactus' spines, the thorns grow directly on the branch.
 Interestingly, some species grow both thorns and leaves - something not seen in the cacti family.
 
-![succulent-7.jpg](../images/succulent-7.jpg)
+![succulent-7.jpg](/images/succulent-7.jpg)
 
 <span class="caption">Thorns on the branches of a succulent from Didireaceae family</span>
 
@@ -142,14 +142,14 @@ most of the land dwellers can not reach the leaves and fruit on the top.
 
 Due to their extreme specialization, succulents come in a wide variety of forms and shapes. The biggest representatives easily dominate the landscape:
 
-![succulent-8.png](../images/succulent-8.png)
+![succulent-8.png](/images/succulent-8.png)
 
 <span class="caption">Two of my favourite curiosities. Aloe pillansii (left) shows that aloes we know as potted plants is a wide and various family. Those can
 grow up to 15 meters high. On the right an east-african-native _Euphorbia candelabrum_ with a self-explanatory name.</span>
 
 On the other end of spectrum there exists _Blossfeldia liliputana_ - a tiny succulent only growing up to 2 centimeters.
 
-![succulent-9.jpg](../images/succulent-9.jpg)
+![succulent-9.jpg](/images/succulent-9.jpg)
 
 <span class="caption">A close-up on B. liliputana.</span>
 
@@ -161,7 +161,7 @@ They grow a couple of millimeters, releasing single leaves and flowers.
 The goal is to gather just enough resources to make the flower bloom and, later, develop the fruit.
 Some plants are able to store water during the year and release plants during the dry season.
 
-![succulent-11.jpg](../images/succulent-11.jpg)
+![succulent-11.jpg](/images/succulent-11.jpg)
 
 <span class="caption">A single flower with three leaves on a branch of a Euphorbia succulent</span>
 
@@ -169,7 +169,7 @@ Succulents - especially cacti - are usually thought to be growing extremely slow
 _Agave americana_'s flower spike is able to grow a stunning 1cm per hour.
 A columnar cactus _Cereus jamacaru_ grows segments spanning 40-60cm every growing seasons.
 
-![succulent-10.jpg](../images/succulent-10.jpg)
+![succulent-10.jpg](/images/succulent-10.jpg)
 
 <span class="caption">Each segment of the C.jamacaru cactus is grown during one season.</span>
 
@@ -182,13 +182,13 @@ Another detail is growth in diameter.
 Since cacti cover their surface with spines, they need to reform the pattern of areoles to maintain the coverage.
 Here are several close-ups on the exact places of increase of the cactus' diameter.
 
-![succulent-12.jpg](../images/succulent-12.jpg)
+![succulent-12.jpg](/images/succulent-12.jpg)
 
 <span class="caption">Splitting the spines. On the left, one row of areoles splits into two. On the right, the areoles diverge and a new row spawns.</span>
 
 Some succulents grow in a pattern allowing them to produce new tissue without changing its shape. A sketch below shows this phenomenon.
 
-![succulent-15.jpg](../images/succulent-15.jpg)
+![succulent-15.jpg](/images/succulent-15.jpg)
 
 <span class="caption">Model of self-contained growth (left). The plant grows on the top and "moves" towards the ground. While a bit far-fetched, bears some
 resemblance to https://en.wikipedia.org/wiki/Mandelbrot_set. On the right, a cross-section of a plant "implementing" this growth pattern. </span>
@@ -197,16 +197,16 @@ resemblance to https://en.wikipedia.org/wiki/Mandelbrot_set. On the right, a cro
 
 To wrap up our virtual walk, three curiosities that did not fit anywhere before.
 
-![succulent-16.jpg](../images/succulent-16.png)
+![succulent-16.jpg](/images/succulent-16.png)
 
 <span class="caption">1. The _Uncarina_ plant produces a fascinating seeds. They are very lightweight and contain barbed spikes to attach themselves to animals.
 Thanks to the hooks, they are able to travel many miles, holding on to an unknowing animal.</span>
 
-![succulent-13.jpg](../images/succulent-13.jpg)
+![succulent-13.jpg](/images/succulent-13.jpg)
 
 <span class="caption">2. Lovely contrast between the coarse, spiny host and the delicate flower on top, growing from an areole.</span>
 
-![succulent-14.jpg](../images/succulent-14.jpg)
+![succulent-14.jpg](/images/succulent-14.jpg)
 
 <span class="caption">3. _Gymnocalycium mihanovichii_ - called in german _Erdbeercactus_ - a strawberry cactus. 
 This species has been awarded by the Cactus Societies in Germany, Austria and Switzerland the prestigious prize of _Cactus of the Year 2023_. (In my book, the Cactus of the Year contest is a far more exciting competition than the Eurovision...)</span>
