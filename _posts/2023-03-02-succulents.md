@@ -17,22 +17,22 @@ Therefore, they need to handle the following:
 - Herbivores - especially since the habitat is characterized by food scarcity
 
 The extreme conditions of the niche caused extreme evolutionary pressure, which, in turn, led to enormous phenotype
-adaptations.
+adaptations. The Sukkulenten-Sammlung in Zürich hosts and curates a great number of
 
-## Preserving water
+## Preserving water - Stem succulents
 
 Since the water supply is limited, succulents evolved their namesake - **Succulency** (Greek: _sucus_ - juice,
 _ulentus_ - plenty). It is the ability to **store large amounts of water inside plants**. Starting from a regular tree
 form, the succulents adapted to store water in different ways.
 
-## Stem succulents
-
-These preserve water in their trunks and branches. One solution is increasing the thickness of the trunk and branches.
+Stem succulents preserve water in their trunks and branches. One solution is increasing the thickness of the trunk and branches.
 It leads to the plant looking like a malformed tree - like in the case of a baobab (a.k.a monkey bread tree)
 
 ![succulent-1.jpg](../images/succulent-1.jpg)
 
-<span class="caption">Baobab (_Adansonia digitata_) trees in Madagascar - stem succulents.</span>
+<span class="caption">Baobab (_Adansonia digitata_) trees in Madagascar - stem succulents. In the foreground, a wagon pulled by two specimen of _zebu_ - cattle
+with characteristic fat hump on their backs. For whatever reason, Google Maps contains [official Street View coverage](https://goo.gl/maps/GG6BoAzjwFfog7d98)
+taken from a similar cattle-pulled wagon in Madagascar.</span>
 
 Incidentally, even the mighty baobab trees with their succulency can't protect themselves from global warming.
 Since the beginning of the 21st century we are witnessing an unprecedented baobab die-off in South Africa. The trees
@@ -53,14 +53,13 @@ looks.
 
 ![succulent-3.jpg](../images/succulent-3.jpg)
 
-<span class="caption">_Cyphostemma pachypus_ plant. The stem is rock-solid. Those plants are sometimes referred to as "
-living rocks".</span>
+<span class="caption">_Cyphostemma pachypus_ plant. The stem is rock-solid (I checked).</span>
 
 The examples above grow non-succulent leaves to photosynthesize. The benefit of this solution is a separation of
 concerns. Since the mass and energy transfer is conducted by the leaves, the stem and branches can strongly specialize
 in impermeability. This leads to another adaptation: a dense, wax coat on the surface of the bark.
 
-This adaptation is primarily seen in the plants inhibiting the driest regions. Such as _Monsonia_ family, a shrub found
+This adaptation is primarily seen in the plants inhibiting the driest regions. Such as _Monsonia_ genus, a shrub found
 in the dry region of Lüderitz, Namibia. The plant was thoroughly described by Kurt Moritz Dinter, a German scientist,
 who worked in that area at the turn of 20th century. He claimed, that the shrubs were able to grow on an exposed
 bedrock, surrounded by dunes and their waxy bark was used as tinder or even as an ingredient of candles.
@@ -132,50 +131,89 @@ Interestingly, some species grow both thorns and leaves - something not seen in 
 
 <span class="caption">Thorns on the branches of a succulent from Didireaceae family</span>
 
---- 
+Apart from mechanical protection, some succulents employ poisonous chemicals to scare off the herbivores.
+Plants of the spurge (_Euphorbia_) family often contain so-called "wolf's milk" - white sap released upon damage.
+Thanks to that only a handful of animals are able to threaten it.
 
-Euphorbia: Niektóre mają Milki Sap "wolf's milk". biały, caustic, trujący. Tylko kilka zwierząt je dzięki temu wpierdala
-
-Orchidee typowo trzymają wodę w pniach ale mogą też być sukulnentne w liściach
-Orchid seeds - poczytaj.
-
-## Seeds
-
-Uncarina. Uncarina ma pojebane owoce!! Masz fote odpowiedniego ustępu.
+Last strategy is keeping the edible, resource-rich parts of the tree out of the herbivores' range. Since some succulents grow over 10 meters high (ex: baobab),
+most of the land dwellers can not reach the leaves and fruit on the top.
 
 ## Growth Patterns
 
-Trzymana woda pozwala im kwitnąć podczas suchego sezonu.
+Due to their extreme specialization, succulents come in a wide variety of forms and shapes. The biggest representatives easily dominate the landscape:
 
-w afryce jest dużo Spurges (Euphorbiaceae), mają gigantyczny rozrzut:
+![succulent-8.png](../images/succulent-8.png)
 
-- np green, succulent stems, vestigial leaves
-- ale też thornless stem succulents z niesukulentnymi liśćmi a zamiast tego rhizomes albo korzenie/pnie, które są
-  Limit annual growth do minimum. Kilka kwiatków i malutkich liści. Tylko na tyle, żęby dojrzał owoc.
+<span class="caption">Two of my favourite curiosities. Aloe pillansii (left) shows that aloes we know as potted plants is a wide and various family. Those can
+grow up to 15 meters high. On the right an east-african-native _Euphorbia candelabrum_ with a self-explanatory name.</span>
 
-Obczaj:
+On the other end of spectrum there exists _Blossfeldia liliputana_ - a tiny succulent only growing up to 2 centimeters.
 
-- euphorbia boranensis (ethipia i kenia native)
-- euphorbia candelabrum (east africa)
-  E. echinus też. (marocco, atlas mountains)
-- Jeste też sporo Asphodelaceae (aloesy). Np Aloe pillansii ma 10m, wygląda jak drzewo.połudine/płd-wsch afryka (
-  madagaskar tez). (asphodel family lol).
-  Agave v Aloe: Agave mają szorstkie, włókniste fibres. Aloes soft/no fibres, bez thorna na końcu, mają czasem ząbki na
-  boku.
+![succulent-9.jpg](../images/succulent-9.jpg)
 
-Wzrost - Agave americana: flower spike rośnie aż 1cm na godzine.
-Cereus jamacaru - segmenty ok 50cm, rosną podczas growing season.
-Aloe pillansi - ponad 10m i koło 380 lat żyje.
-U samych kaktusów: Pachycereus pringlei ponad 10m, Blossfeldia lilipuntana 2cm max..
-drzewiaste aloesy
-Pomiar wzrostu:
-nie ma completely woody stem u kaktusów i euphorbia -> no growth rings. Dlatego badamy constrictions między stem
-segmentami - u cereus jamacaru jes to kurwa trywialne.
+<span class="caption">A close-up on B. liliputana.</span>
 
-### Madagaskar:
+In order to reproduce, succulents need to produce seeds.
+However, only newly-grown parts of the plants are able to produce them, forcing the plants to grow each year.
 
-### Drzewne sukulenty
+Some succulents limit their seasonal growth to the bare minimum dictated by the scarcity of resources.
+They grow a couple of millimeters, releasing single leaves and flowers.
+The goal is to gather just enough resources to make the flower bloom and, later, develop the fruit.
+Some plants are able to store water during the year and release plants during the dry season.
 
-[1] https://www.nationalgeographic.com/environment/article/madagascar-baobab-trees-deforestation-climate-change#:~:text=Of%20baobab%20trees%2C%20the%20Adansonia,species%20could%20be%20lost%20forever.
+![succulent-11.jpg](../images/succulent-11.jpg)
 
-https://enjoysucculents.com/2017/01/09/augea-capensis/
+<span class="caption">A single flower with three leaves on a branch of a Euphorbia succulent</span>
+
+Succulents - especially cacti - are usually thought to be growing extremely slowly. There are however numerous exceptions to this rule.
+_Agave americana_'s flower spike is able to grow a stunning 1cm per hour.
+A columnar cactus _Cereus jamacaru_ grows segments spanning 40-60cm every growing seasons.
+
+![succulent-10.jpg](../images/succulent-10.jpg)
+
+<span class="caption">Each segment of the C.jamacaru cactus is grown during one season.</span>
+
+Interestingly, cacti and similar stem-photosynthesizing succulents contain no growth rings.
+After all, they do not grow bark and, as mentioned, their shape fluctuates.
+Therefore, dating a cactus is no easy task. Usually, they are dated by their size and constellation of the spines.
+(unless it's a C.jamacaru, this one is trivial to date).
+
+Another detail is growth in diameter.
+Since cacti cover their surface with spines, they need to reform the pattern of areoles to maintain the coverage.
+Here are several close-ups on the exact places of increase of the cactus' diameter.
+
+![succulent-12.jpg](../images/succulent-12.jpg)
+
+<span class="caption">Splitting the spines. On the left, one row of areoles splits into two. On the right, the areoles diverge and a new row spawns.</span>
+
+Some succulents grow in a pattern allowing them to produce new tissue without changing its shape. A sketch below shows this phenomenon.
+
+![succulent-15.jpg](../images/succulent-15.jpg)
+
+<span class="caption">Model of self-contained growth (left). The plant grows on the top and "moves" towards the ground. While a bit far-fetched, bears some
+resemblance to https://en.wikipedia.org/wiki/Mandelbrot_set. On the right, a cross-section of a plant "implementing" this growth pattern. </span>
+
+## Random intricacies
+
+To wrap up our virtual walk, three curiosities that did not fit anywhere before.
+
+![succulent-16.jpg](../images/succulent-16.png)
+
+<span class="caption">1. The _Uncarina_ plant produces a fascinating seeds. They are very lightweight and contain barbed spikes to attach themselves to animals.
+Thanks to the hooks, they are able to travel many miles, holding on to an unknowing animal.</span>
+
+![succulent-13.jpg](../images/succulent-13.jpg)
+
+<span class="caption">2. Lovely contrast between the coarse, spiny host and the delicate flower on top, growing from an areole.</span>
+
+![succulent-14.jpg](../images/succulent-14.jpg)
+
+<span class="caption">3. _Gymnocalycium mihanovichii_ - called in german _Erdbeercactus_ - a strawberry cactus. 
+This species has been awarded by the Cactus Societies in Germany, Austria and Switzerland the prestigious prize of _Cactus of the Year 2023_. (In my book, the Cactus of the Year contest is a far more exciting competition than the Eurovision...)</span>
+
+---
+
+### Resources:
+
+- Main resource: [Sukkulenten-Sammlung Zürich](https://www.stadt-zuerich.ch/ted/de/index/gsz/sukkulenten-sammlung-zuerich.html)
+- [Baobab die-off](https://www.nationalgeographic.com/environment/article/madagascar-baobab-trees-deforestation-climate-change#:~:text=Of%20baobab%20trees%2C%20the%20Adansonia,species%20could%20be%20lost%20forever)
