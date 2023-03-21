@@ -11,6 +11,8 @@ layout: home
 
 A personal collection of nature's intricacies that I love to gather and curate.
 
-Stay awhile and ponder with me! ☕
+Stay awhile and enjoy! ☕
 
 ## Entries:
+
+---

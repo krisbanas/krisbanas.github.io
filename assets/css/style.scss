@@ -5,3 +5,25 @@
 @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
+
+.caption {
+  display: block;
+  font-style: italic;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 60px;
+}
+
+.post-content h1, .post-content h2, .post-content h3 {
+  margin-top: 10px !important;
+}
+
+img {
+  display: block;
+  max-width: 85%;
+  margin: 0 auto;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.7);
+}
