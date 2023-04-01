@@ -145,7 +145,7 @@ Due to their extreme specialization, succulents come in a wide variety of forms 
 
 ![succulent-8.png](/images/succulent-8.png)
 
-<span class="caption">Two of my favourite curiosities. Aloe pillansii (left) shows that aloes we know as potted plants is a wide and various family. Those can
+<span class="caption">Two of my favourite curiosities. Aloe pillansii (left) shows that the aloes we know as pot plants is a wide and various family. Those can
 grow up to 15 meters high. On the right an east-african-native _Euphorbia candelabrum_ with a self-explanatory name.</span>
 
 At the other end of the spectrum is _Blossfeldia liliputana_ - a tiny succulent that grows to just 2 centimeters.
@@ -155,20 +155,20 @@ At the other end of the spectrum is _Blossfeldia liliputana_ - a tiny succulent 
 <span class="caption">A close-up on B. liliputana.</span>
 
 In order to reproduce, succulents need to produce seeds.
-However, only newly-grown parts of the plants are able to produce them, forcing the plants to grow each year.
+However, only newly-grown parts of the plant can to produce them, forcing the plant to grow each year.
 
 Some succulents limit their seasonal growth to the bare minimum dictated by the scarcity of resources.
 They grow a couple of millimeters, releasing single leaves and flowers.
 The goal is to gather just enough resources to make the flower bloom and, later, develop the fruit.
-Some plants are able to store water during the year and release plants during the dry season.
+Some plants are able to store water throughout the year and release it during the dry season.
 
 ![succulent-11.jpg](/images/succulent-11.jpg)
 
 <span class="caption">A single flower with three leaves on a branch of a Euphorbia succulent</span>
 
 Succulents - especially cacti - are usually thought to be growing extremely slowly. There are however numerous exceptions to this rule.
-_Agave americana_'s flower spike is able to grow a stunning 1cm per hour.
-A columnar cactus _Cereus jamacaru_ grows segments spanning 40-60cm every growing seasons.
+_Agave americana_'s flower spike is able to grow an astonishing 1cm per hour.
+A columnar cactus _Cereus jamacaru_ grows segments measuring 40-60cm each growing season.
 
 ![succulent-10.jpg](/images/succulent-10.jpg)
 
@@ -177,40 +177,40 @@ A columnar cactus _Cereus jamacaru_ grows segments spanning 40-60cm every growin
 Interestingly, cacti and similar stem-photosynthesizing succulents contain no growth rings.
 After all, they do not grow bark and, as mentioned, their shape fluctuates.
 Therefore, dating a cactus is no easy task. Usually, they are dated by their size and constellation of the spines.
-(unless it's a C.jamacaru, this one is trivial to date).
+(unless it's a C.jamacaru. This one is trivial to date).
 
-Another detail is growth in diameter.
-Since cacti cover their surface with spines, they need to reform the pattern of areoles to maintain the coverage.
-Here are several close-ups on the exact places of increase of the cactus' diameter.
+Another detail is the growth in diameter.
+Since cacti cover their surface with spines, they need to reform the pattern of the areoles to maintain the coverage.
+Here are several close-ups of the exact places where the diameter of the cactus increases.
 
 ![succulent-12.jpg](/images/succulent-12.jpg)
 
-<span class="caption">Splitting the spines. On the left, one row of areoles splits into two. On the right, the areoles diverge and a new row spawns.</span>
+<span class="caption">Splitting of the spines. On the left, one row of areoles splits into two. On the right, the areoles diverge and a new row spawns.</span>
 
-Some succulents grow in a pattern allowing them to produce new tissue without changing its shape. A sketch below shows this phenomenon.
+Some succulents grow in a pattern that allows them to produce new tissue without changing their shape. The sketch below shows this phenomenon.
 
 ![succulent-15.jpg](/images/succulent-15.jpg)
 
-<span class="caption">Model of self-contained growth (left). The plant grows on the top and "moves" towards the ground. While a bit far-fetched, bears some
+<span class="caption">Model of self-contained growth (left). The plant grows on the top and "moves" towards the ground. While a bit far-fetched, it bears some
 resemblance to https://en.wikipedia.org/wiki/Mandelbrot_set. On the right, a cross-section of a plant "implementing" this growth pattern. </span>
 
 ## Random intricacies
 
-To wrap up our virtual walk, three curiosities that did not fit anywhere before.
+To wrap up our virtual tour, three curiosities that did not fit in anywhere before.
 
 ![succulent-16.jpg](/images/succulent-16.png)
 
-<span class="caption">1. The _Uncarina_ plant produces a fascinating seeds. They are very lightweight and contain barbed spikes to attach themselves to animals.
-Thanks to the hooks, they are able to travel many miles, holding on to an unknowing animal.</span>
+<span class="caption">1. The _Uncarina_ plant produces fascinating seeds. They are very lightweight and contain barbed spines used for attaching to animals.
+Thanks to the hooks, they are able to travel many miles, holding on to an unsuspecting animal.</span>
 
 ![succulent-13.jpg](/images/succulent-13.jpg)
 
-<span class="caption">2. Lovely contrast between the coarse, spiny host and the delicate flower on top, growing from an areole.</span>
+<span class="caption">2. A lovely contrast between the coarse, spiny host and the delicate flower on top, growing from an areole.</span>
 
 ![succulent-14.jpg](/images/succulent-14.jpg)
 
-<span class="caption">3. _Gymnocalycium mihanovichii_ - called in german _Erdbeercactus_ - a strawberry cactus. 
-This species has been awarded by the Cactus Societies in Germany, Austria and Switzerland the prestigious prize of _Cactus of the Year 2023_. (In my book, the Cactus of the Year contest is a far more exciting competition than the Eurovision...)</span>
+<span class="caption">3. _Gymnocalycium mihanovichii_ - called _Erdbeercactus_ in german - a strawberry cactus. 
+This species has been awarded the prestigious _Cactus of the Year 2023_ prize by the Cactus Societies in Germany, Austria and Switzerland. (In my book, the Cactus of the Year contest is a far more exciting competition than the Eurovision...)</span>
 
 ---
 
