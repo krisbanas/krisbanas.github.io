@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Succulents and their adaptations"
+title: "Succulents and their Adaptations"
 categories: plants
 ---
 
@@ -26,7 +26,7 @@ _ulentus_ - abundance). It is the ability to **store large amounts of water insi
 form, the succulents have adapted to store water in different ways.
 
 Stem succulents preserve water in their stems and branches. How is this possible? 
-One solution is to increase the thickness of the stem and branches.
+One solution is to **increase the thickness of the stem and branches**.
 It leads to the plant looking like a misshapen tree - as in the case of a baobab (a.k.a monkey bread tree).
 
 ![succulent-1.jpg](/images/succulent-1.jpg)
@@ -36,15 +36,15 @@ with the characteristic fat hump on their backs. For whatever reason, Google Map
 captured from a similar cattle-drawn cart in Madagascar.</span>
 
 Incidentally, even the mighty baobab trees with their succulency can't protect themselves from global warming.
-Since the beginning of the 21st century we are witnessing an unprecedented baobab die-off in South Africa. The trees
+Since the beginning of the 21st century we are witnessing an unprecedented **baobab die-off** in South Africa. The trees
 are collapsing, completely dried out inside. One of the species, _Adansonia perrieri_, is listed as "critically endangered", with
 fewer than 200 mature trees remaining. Sadly, it is expected to become extinct in the wild soon.
 
 As an aside, scientists are collecting the baobab's DNA in search of traits, such as drought tolerance, that could be bred
 into future trees[1].
 
-Other examples include the _pachypus_ plants (Greek: _pachys_ - thick, _pous_ - feet). Some of these look like trees with
-thick branches, while others form a more extreme rock-like trunk with liana-like branches. The latter are also knowed as caudex
+Other examples of stem succulents include the _pachypus_ plants (Greek: _pachys_ - thick, _pous_ - feet). Some of these look like trees with
+thick branches, while others form a more extreme rock-like trunk with liana-like branches. The latter are also known as caudex
 plants. It's also worth noting that the word _pachy_ is often found in the taxonomy of the succulents due to their
 appearance.
 
@@ -56,19 +56,19 @@ appearance.
 
 <span class="caption">_Cyphostemma pachypus_ plant. The stem is rock-solid (I checked).</span>
 
-In the examples above, non-succulent leaves are grown to photosynthesize. The benefit of this solution is a separation of
-concerns. Since the mass and energy transfer is carried out by the leaves, the stem and branches can become highly specialize
+In the examples above, non-succulent leaves are grown to photosynthesize. The benefit of this solution is the **separation of
+concerns**. Since the mass and energy transfer is carried out by the leaves, the stem and branches can become highly specialize
 for impermeability. This leads to another adaptation: a dense, wax coat on the surface of the bark.
 
-This adaptation is particularly evident in the plants inhibiting the driest regions. Such as the genus _Monsonia_, a shrub found
-in the arid region of Lüderitz, Namibia. The plant was thoroughly described by Kurt Moritz Dinter, a German scientist,
+This adaptation is particularly evident in the plants inhabiting the driest regions. Such as the genus _Monsonia_, a shrub found
+in the arid region of Lüderitz, Namibia. The plant was thoroughly described by [Kurt Dinter](https://en.wikipedia.org/wiki/Kurt_Dinter), a German scientist,
 who worked in that area at the turn of 20th century. He claimed, that the shrubs were able to grow on an exposed
 bedrock, surrounded by dunes and their waxy bark was used as tinder or even as an ingredient in candles.
 
 ## Cacti
 
-Another solution is to carry out photosynthesis in the stem and branches. In this case, the stem has to be permeable,
-which reduces its water retention capabilities. The advantage is, the plant needs no leaves. This solution was evolved by
+Another solution is to **carry out photosynthesis in the stem and branches**. In this case, the stem has to be permeable,
+which reduces its water retention capabilities. The advantage is, **the plant needs no leaves**. This solution was evolved by
 the cactus (_Cactaceae_) family.
 
 Cacti are native to the Americas and are found on both continents.
@@ -82,7 +82,7 @@ _stomata_. When the stomata are open, they release water vapour from the plant. 
 day-night cycle and only open the stomata after sunset. The stomata are also typically slightly sunken into the surface.
 This provides protection from the wind and provides shade.
 
-Photosynthesis requires sunlight, so cacti need to store the CO2, which is collected at night, until daylight. They
+Photosynthesis requires sunlight, so **cacti need to store the CO2, which is collected at night, until daylight**. They
 store it in the form of a malic acid. Keep in mind that storage and conversion require energy. That's why "Normal"
 plants simply collect CO2 during the day and perform photosynthesis on the spot.
 
@@ -96,7 +96,7 @@ depending on their water content.
 
 ## Leaf succulents
 
-The aforementioned Kurt Dinter also describes _Augea capensis_ - a so-called leaf succulent. This type of succulents evolved succulence in their leaves. Common
+The aforementioned Kurt Dinter also describes _Augea capensis_ - a so-called leaf succulent. This type of succulents **evolved succulence in their leaves**. Common
 leaf succulents are Aloes and Agaves.
 
 A small
@@ -111,12 +111,12 @@ to bind water inside the leaf and minimize the losses caused by evaporation.
 
 ## Spines and thorns
 
-To deter the herbivores, succulents developed several techniques. One of them is spines - the hallmark of the cacti family. Spines are a good example of
-convergent evolution since they evolved from different parts of plants for different, isolated, plant groups.
+To deter the herbivores, succulents developed several techniques. One of them is **spines** - the hallmark of the cacti family. Spines are a good example of
+**convergent evolution** since they evolved from different parts of plants for different, isolated, plant groups.
 
 I mentioned that cacti do not need leaves, because their stem and branches are responsible for photosynthesis. This allowed them to repurpose the leaves. What
-they grow instead are spines, which are highly altered vestigial leaves. The spines are growing on so-called areoles - points on the surface of the branches,
-which evolved from branch buds. Some cacti grow glochids - hair-like, small spines. While not as strong as spines, they are extremely irritating and difficult
+they grow instead are spines, which are **highly altered vestigial leaves**. The spines are growing on so-called areoles - points on the surface of the branches,
+which evolved from branch buds. Some cacti grow **glochids** - hair-like, small spines. While not as strong as spines, they are extremely irritating and difficult
 to get rid of once caught.
 
 ![succulent-6.jpg](/images/succulent-6.png)
@@ -124,19 +124,19 @@ to get rid of once caught.
 <span class="caption">Spines on a Trichocereus (left) vs glochids on Opuntia (right). The flat shape of Opuntia segments might resemble leaves but those are
 also branches. They evolved to limit the sun exposure by limiting the projection surface.</span>
 
-A convergent solution are thorns. Those can be found on the succulents from the Euphorbiaea family.
-While they serve the same role as cactus' spines, the thorns grow directly on the branch.
-Interestingly, some species grow both thorns and leaves - something not seen in the cacti family.
+An analogous solution are **thorns**. Those can be found on the succulents from the Euphorbiaea family.
+While they serve the same role as cactus' spines, **thorns grow directly on the branch**.
+Interestingly, many species grow both thorns and leaves - something not commonly seen in the cacti family.
 
 ![succulent-7.jpg](/images/succulent-7.jpg)
 
 <span class="caption">Thorns on the branches of a succulent from Didireaceae family</span>
 
-Apart from mechanical protection, some succulents employ poisonous chemicals to scare off the herbivores.
+Apart from mechanical protection, some succulents employ **poisonous chemicals to scare off the herbivores**.
 Plants of the spurge family (_Euphorbia_) often contain so-called "wolf's milk" - white sap released upon damage.
 Thanks to that only a handful of animals are able to threaten it.
 
-The final strategy is to keep the edible, resource-rich parts of the tree out of the herbivores' reach. Since some succulents grow over 10 meters high (ex: baobab),
+The final strategy is to keep the edible, resource-rich parts of the tree out of the herbivores' reach. Since some succulents grow over 10 meters high (example: baobab),
 most of the land dwellers cannot reach the leaves and fruit on the top.
 
 ## Growth Patterns
@@ -155,12 +155,11 @@ At the other end of the spectrum is _Blossfeldia liliputana_ - a tiny succulent 
 <span class="caption">A close-up on B. liliputana.</span>
 
 In order to reproduce, succulents need to produce seeds.
-However, only newly-grown parts of the plant can to produce them, forcing the plant to grow each year.
+However, **only newly-grown parts of the plant can to produce them**, forcing the plant to grow each year.
 
 Some succulents limit their seasonal growth to the bare minimum dictated by the scarcity of resources.
 They grow a couple of millimeters, releasing single leaves and flowers.
 The goal is to gather just enough resources to make the flower bloom and, later, develop the fruit.
-Some plants are able to store water throughout the year and release it during the dry season.
 
 ![succulent-11.jpg](/images/succulent-11.jpg)
 
@@ -174,7 +173,7 @@ A columnar cactus _Cereus jamacaru_ grows segments measuring 40-60cm each growin
 
 <span class="caption">Each segment of the C.jamacaru cactus is grown during one season.</span>
 
-Interestingly, cacti and similar stem-photosynthesizing succulents contain no growth rings.
+Interestingly, cacti and similar stem-photosynthesizing succulents **contain no growth rings**.
 After all, they do not grow bark and, as mentioned, their shape fluctuates.
 Therefore, dating a cactus is no easy task. Usually, they are dated by their size and constellation of the spines.
 (unless it's a C.jamacaru. This one is trivial to date).
@@ -187,16 +186,16 @@ Here are several close-ups of the exact places where the diameter of the cactus 
 
 <span class="caption">Splitting of the spines. On the left, one row of areoles splits into two. On the right, the areoles diverge and a new row spawns.</span>
 
-Some succulents grow in a pattern that allows them to produce new tissue without changing their shape. The sketch below shows this phenomenon.
+Some succulents grow in a pattern that allows them to produce new tissue **without changing their shape**. The sketch below shows this phenomenon.
 
 ![succulent-15.jpg](/images/succulent-15.jpg)
 
-<span class="caption">Model of self-contained growth (left). The plant grows on the top and "moves" towards the ground. While a bit far-fetched, it bears some
-resemblance to https://en.wikipedia.org/wiki/Mandelbrot_set. On the right, a cross-section of a plant "implementing" this growth pattern. </span>
+<span class="caption">Model of self-contained growth (left). The plant grows on the top and "moves" towards the ground. While a bit far-fetched, to me it bears some
+resemblance to the [Mandelbrot set](https://en.wikipedia.org/wiki/Mandelbrot_set). On the right, a cross-section of a plant "implementing" this growth pattern. </span>
 
 ## Random intricacies
 
-To wrap up our virtual tour, three curiosities that did not fit in anywhere before.
+To wrap up our virtual tour, three curiosities that did not fit in anywhere else.
 
 ![succulent-16.jpg](/images/succulent-16.png)
 
@@ -217,4 +216,4 @@ This species has been awarded the prestigious _Cactus of the Year 2023_ prize by
 ### Resources:
 
 - Main resource: [Sukkulenten-Sammlung Zürich](https://www.stadt-zuerich.ch/ted/de/index/gsz/sukkulenten-sammlung-zuerich.html)
-- [Baobab die-off](https://www.nationalgeographic.com/environment/article/madagascar-baobab-trees-deforestation-climate-change#:~:text=Of%20baobab%20trees%2C%20the%20Adansonia,species%20could%20be%20lost%20forever)
+- [Baobab die-off](https://www.nationalgeographic.com/environment/article/madagascar-baobab-trees-deforestation-climate-change#:~:text=Of%20baobab%20trees%2C%20the%20Adansonia,species%20could%20be%20lost%20forever), National Geographic
