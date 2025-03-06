@@ -8,8 +8,8 @@ categories: math
 
 Problem I'm solving:
 
-- Consider a set of buses, where a bus with number `n` goes every `n` minutes.
-- I also know that all buses start at `t=0`.
+- Consider a set of buses, where a bus with a number `n` goes every `n` minutes.
+- All buses start at `t=0`.
 - All bus numbers are coprime.
 
 I want to find the earliest moment `T` where:
@@ -74,7 +74,7 @@ T ≡ a3 (mod m3)
 ... (can be more, I stick to 3)
 ```
 
-First, calculate a **Total Modulus** `M`:
+First, calculate the **Total Modulus** `M`:
 
 ```
 M = m1 * m2 * m3
@@ -84,7 +84,8 @@ M = 5 * 11 * 13 = 715
 
 Now, for each entry in the set of congruences I'll do the following:
 
-- Count `Mi` equal to **product of other moduli**. I won't multiply other, I will just divide `M` by my modulo `mi`.
+- Count `Mi` equal to **product of other moduli**. I won't multiply the other, I will divide `M` by my modulo `mi`
+  instead.
 
 ```
 Mi = M / mi
@@ -94,7 +95,7 @@ M2 = 715 / 11 = 65
 M3 = 715 / 13 = 55
 ```
 
-- Find **Modular Multiplicative Inverse** `Ii` of each entry. See above how to do it.
+- Find **Modular Multiplicative Inverse** `Ii` of each entry (using the algorithm above).
 
 ```
 Ii = modInverse(ai, mi)
