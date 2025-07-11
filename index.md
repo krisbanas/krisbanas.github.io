@@ -9,7 +9,7 @@ layout: home
 ---
 # Welcome to *Chaotic Notes* 🎉
 
-A personal collection of nature's intricacies that I love to gather and curate.
+A random collection of _stuff_ that caught my attention.
 
 Stay awhile and enjoy! ☕
 
