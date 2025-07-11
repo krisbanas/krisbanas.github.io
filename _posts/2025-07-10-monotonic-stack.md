@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Chinese Remainder Theorem"
+title: "Monotonic Stack"
 categories: [ math ]
 ---
 
